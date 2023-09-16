@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../../../utils/color_constant.dart';
 
-class searchBar extends StatelessWidget {
+class
+searchBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
