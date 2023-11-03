@@ -19,6 +19,7 @@ import '../../../widgets/custom_button.dart';
 import '../../../widgets/custom_icon_button.dart';
 import '../../../widgets/custom_image_view.dart';
 import '../../../widgets/custom_search_view.dart';
+import '../../video_record/recording.dart';
 import '../Serach_screen_menu/Bussines_profile_reviews_videos.dart';
 import 'bottom_dialog.dart';
 import 'card_return_Home.dart';
@@ -261,7 +262,12 @@ class _Search1State extends State<Search1> {
                   children: [
                     InkWell(
                       onTap: () {
+
                         // Handle the first menu item click
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) =>  CameraPage()),
+                        );
                       },
                       child: Padding(
                         padding: const EdgeInsets.all(8.0),
