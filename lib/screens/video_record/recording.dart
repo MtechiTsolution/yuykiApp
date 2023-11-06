@@ -18,6 +18,7 @@ class _CameraPageState extends State<CameraPage> {
   @override
   void initState() {
     _initCamera();
+
     super.initState();
   }
 
